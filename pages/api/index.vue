@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header class="hero">
-      <div class="hero__title">PanHub API 文档</div>
+      <div class="hero__title">梦鱼盘搜 API 文档</div>
       <div class="hero__subtitle">网盘搜索服务 API 接口文档</div>
     </header>
 
@@ -171,7 +171,7 @@ channels=["alipanshare", "tgxiazaiyuan"]</code></pre>
               <span class="channel-tag">alyp_4K_Movies</span>
               <span class="channel-tag">shareAliyun</span>
               <span class="channel-tag">alyp_1</span>
-              <span class="channel-tag">dianyingshare</span>
+              <span class="channel-tag">tgbokee</span>
               <span class="channel-tag">Quark_Movies</span>
               <span class="channel-tag">XiangxiuNBB</span>
               <span class="channel-tag">NewQuark</span>
