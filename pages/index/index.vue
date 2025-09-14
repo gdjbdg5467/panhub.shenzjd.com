@@ -4,7 +4,7 @@
       <div class="hero__logo">
         <img src="/logo.png" alt="logo" />
       </div>
-      <div class="hero__subtitle">全网最全的网盘搜索工具</div>
+      <div class="hero__subtitle">网盘搜索工具</div>
     </header>
 
     <SearchBox
@@ -68,7 +68,7 @@ const apiBase = (config.public?.apiBase as string) || "/api";
 const siteUrl = (config.public?.siteUrl as string) || "";
 
 useSeoMeta({
-  title: "PanHub - 全网最全的网盘搜索",
+  title: "梦鱼盘搜 - 网盘搜索",
   description:
     "聚合阿里云盘、夸克、百度网盘、115、迅雷等平台，实时检索各类分享链接与资源，免费、快速、无广告。",
   ogTitle: "PanHub - 全网最全的网盘搜索",
@@ -78,7 +78,7 @@ useSeoMeta({
   ogSiteName: "PanHub",
   ogImage: siteUrl ? `${siteUrl}/og.svg` : "/og.svg",
   twitterCard: "summary_large_image",
-  twitterTitle: "PanHub - 全网最全的网盘搜索",
+  twitterTitle: "梦鱼盘搜 - 网盘搜索",
   twitterDescription:
     "聚合阿里云盘、夸克、百度网盘、115、迅雷等平台，实时检索各类分享链接与资源，免费、快速、无广告。",
   twitterImage: siteUrl ? `${siteUrl}/og.svg` : "/og.svg",
@@ -90,7 +90,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "网盘搜索, 阿里云盘搜索, 夸克网盘搜索, 百度网盘搜索, 115 网盘, 迅雷云盘, 资源搜索, 盘搜, PanHub",
+        "网盘搜索, 阿里云盘搜索, 夸克网盘搜索, 百度网盘搜索, 115 网盘, 迅雷云盘, 资源搜索, 盘搜",
     },
   ],
   script: [
